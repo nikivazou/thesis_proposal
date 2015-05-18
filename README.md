@@ -1,5 +1,9 @@
 # LiquidHaskell: Refinement Types for Haskell
 
+## Questions
+  - Should I go into soundness - labels etc?
+  - Keynote or html?
+
 ## Proposals 
 
 ### Internals (Expressiveness - Theory)
