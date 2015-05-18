@@ -4,7 +4,7 @@
   - Should I go into soundness - labels etc?
   - Keynote or html?
 
-## Proposals 
+## Proposals (15min)
 
 ### Internals (Expressiveness - Theory)
 
@@ -79,16 +79,21 @@ This check is required because of the existential type of the [data cache](https
 
 
 
-## Current Work
+## Current Work (30min)
 
 ### Intro
   - Haskell
      - is it compiles it works
      - well typed programs cannot go wrong
-     - well typed programs go wrong (div, sort)
+     - well typed programs go wrong (div, , sort)
 ### Measures
+  - len, hasZero (proposal hasElem)
+  - increasing lists
 ### Abstract Refinement Types
+  - lists, BST (show type), 
+  - start composition
 ### Bounded Refinement Types
+  - composition, foldr?
 ### Evaluation 
    - numbers 
    - Users (Colin)
