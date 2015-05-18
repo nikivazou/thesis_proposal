@@ -1,6 +1,8 @@
 # LiquidHaskell: Refinement Types for Haskell
 
-## Internals (Expressiveness - Theory)
+## Proposals 
+
+### Internals (Expressiveness - Theory)
 
 - I have a program in Coq or Dependent Haskell. Can I tranlsate it in liquidHaskell? No. One major obstacle:
   _Mutliparameter measures_.
@@ -26,7 +28,7 @@
     
 
 
-## Usability (Error reporting)
+### Usability (Error reporting)
 
   - SAFE? Yes: Code is Safe, No:
   - TARGET found counter-example? Yes: Code is Unsafe, No:
@@ -51,7 +53,7 @@
         
       
 
-## Applications
+### Applications
 
 - Verify invariants in Machine Learning Programming.
  Kmeans has two steps
@@ -70,3 +72,19 @@ To prove that at each step the error in kmeans is decreasing we need to prove th
  On this project, we can also use liquidHaskell (or dependent typing) to verify that coersing is actually safe.
 Thought it seems that they are already using [dynamic checks] (https://github.com/facebook/Haxl/blob/master/Haxl/Core/StateStore.hs#L57).
 This check is required because of the existential type of the [data cache](https://github.com/facebook/Haxl/blob/master/Haxl/Core/StateStore.hs#L40).
+
+
+
+## Current Work
+
+### Intro
+  - Haskell
+     - is it compiles it works
+     - well typed programs cannot go wrong
+     - well typed programs go wrong (div, sort)
+### Measures
+### Abstract Refinement Types
+### Bounded Refinement Types
+### Evaluation 
+   - numbers 
+   - Users (Colin)
