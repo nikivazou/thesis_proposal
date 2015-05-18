@@ -28,7 +28,28 @@
 
 ## Usability (Error reporting)
 
-
+  - SAFE? Yes: Code is Safe, No:
+  - TARGET found counter-example? Yes: Code is Unsafe, No:
+  - Then what?
+      - Imprecise Specifications :
+      
+         ```
+         foo :: Int -> Int 
+         foo x = x + 1 
+         
+         bar :: x:Int -> {v:Int | v > x}
+         bar x = foo x
+         ```
+         
+      - Imprecise Theories, e.g. `(*)` is uninterpreted
+      
+      - Missing Qualifiers, etc
+      
+      How to help the programmer identify the error?
+        - ML to classify what category the error belongs to
+        - [Abductive Reasoning](http://www.cs.utexas.edu/~isil/pldi022-dillig.pdf) to figure out missing hypothesis?
+        
+      
 
 ## Applications
 
